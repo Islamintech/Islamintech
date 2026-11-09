@@ -49,6 +49,7 @@ Also: Railway · Cloudinary · BullMQ · Playwright · LLM integration (Groq, Cl
 | Project | What it is | Stack |
 | --- | --- | --- |
 | 🎓 **[K-Apply](https://k-apply.uz)** | Multilingual EdTech SaaS for Korean university discovery and applications | Next.js · NestJS · GraphQL · MongoDB |
+| 🍽️ **[VIVORA](https://github.com/Islamintech/vivora)** | Multi-tenant restaurant platform: QR menus, real-time kitchen display via GraphQL subscriptions, orders and analytics | NestJS · GraphQL · MongoDB · Next.js · MUI |
 | 🛡️ **[Qalqon](https://github.com/Islamintech/qalqon)** | Telegram anti-scam moderation bot: keyword/link/file detection + LLM verdicts, event-driven MVC | Python · Groq · Docker |
 | 🛂 **[Visa Status Checker](https://github.com/Islamintech/visa-checker)** | Queue-based service that scrapes Korean visa status with headless Chromium | Node · Express · BullMQ · Redis · PostgreSQL · Playwright |
 | 🚗 **[AutoAuction](https://github.com/Islamintech/auction-react)** | Customer web app for buying inspected Korean cars with delivery across Central Asia | React · TypeScript · Redux Toolkit · MUI |
@@ -58,8 +59,8 @@ Also: Railway · Cloudinary · BullMQ · Playwright · LLM integration (Groq, Cl
 ### 📊 GitHub stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Islamintech&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Islamintech&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages"/>
+  <img height="165" src="./profile/stats.svg" alt="GitHub stats"/>
+  <img height="165" src="./profile/top-langs.svg" alt="Top languages"/>
 </p>
 
 <p align="center">
