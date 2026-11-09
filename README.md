@@ -59,11 +59,6 @@ Also: Railway · Cloudinary · BullMQ · Playwright · LLM integration (Groq, Cl
 ### 📊 GitHub stats
 
 <p align="center">
-  <img height="165" src="./profile/stats.svg" alt="GitHub stats"/>
-  <img height="165" src="./profile/top-langs.svg" alt="Top languages"/>
-</p>
-
-<p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Islamintech&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
 </p>
 
