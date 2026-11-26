@@ -18,6 +18,10 @@
   <img src="https://komarev.com/ghpvc/?username=Islamintech&style=flat-square&color=blueviolet" alt="Profile views"/>
 </p>
 
+<p align="center">
+  <img src="./profile/star-chart.svg" width="100%" alt="Islombek's projects drawn as a star chart"/>
+</p>
+
 ---
 
 ### 🧑‍💻 About me
@@ -55,12 +59,6 @@ Also: Railway · Cloudinary · BullMQ · Playwright · LLM integration (Groq, Cl
 | 🚗 **[AutoAuction](https://github.com/Islamintech/auction-react)** | Customer web app for buying inspected Korean cars with delivery across Central Asia | React · TypeScript · Redux Toolkit · MUI |
 | 🎂 **[Cake Kitchen](https://github.com/Islamintech/cake-hh)** | Hackathon project: game-like cake builder connected to real local bakeries, with AI suggestions | Next.js · Express · SQLite · LLMs |
 | 🐍 **[Snake Game](https://github.com/Islamintech/Snake-Game-C-)** | Object-oriented terminal Snake with gates, items and missions | C++ · curses |
-
-### 📊 GitHub stats
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Islamintech&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
-</p>
 
 ---
 
