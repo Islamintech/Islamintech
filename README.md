@@ -18,10 +18,6 @@
   <a href="#"><img src="https://komarev.com/ghpvc/?username=Islamintech&style=flat-square&color=blueviolet" alt="Profile views"/></a>
 </p>
 
-<p align="center">
-  <a href="#"><img src="./profile/star-chart.svg" width="100%" alt="Islombek's projects drawn as a star chart"/></a>
-</p>
-
 ---
 
 ### 🧑‍💻 About me
@@ -47,18 +43,6 @@
 </p>
 
 Also: Railway · Cloudinary · BullMQ · Playwright · LLM integration (Groq, Claude, OpenAI)
-
-### ⭐ Featured projects
-
-| Project | What it is | Stack |
-| --- | --- | --- |
-| 🎓 **[K-Apply](https://k-apply.uz)** | Multilingual EdTech SaaS for Korean university discovery and applications | Next.js · NestJS · GraphQL · MongoDB |
-| 🍽️ **[VIVORA](https://github.com/Islamintech/vivora)** | Multi-tenant restaurant platform: QR menus, real-time kitchen display via GraphQL subscriptions, orders and analytics | NestJS · GraphQL · MongoDB · Next.js · MUI |
-| 🛡️ **[Qalqon](https://github.com/Islamintech/qalqon)** | Telegram anti-scam moderation bot: keyword/link/file detection + LLM verdicts, event-driven MVC | Python · Groq · Docker |
-| 🛂 **[Visa Status Checker](https://github.com/Islamintech/visa-checker)** | Queue-based service that scrapes Korean visa status with headless Chromium | Node · Express · BullMQ · Redis · PostgreSQL · Playwright |
-| 🚗 **[AutoAuction](https://github.com/Islamintech/auction-react)** | Customer web app for buying inspected Korean cars with delivery across Central Asia | React · TypeScript · Redux Toolkit · MUI |
-| 🎂 **[Cake Kitchen](https://github.com/Islamintech/cake-hh)** | Hackathon project: game-like cake builder connected to real local bakeries, with AI suggestions | Next.js · Express · SQLite · LLMs |
-| 🐍 **[Snake Game](https://github.com/Islamintech/Snake-Game-C-)** | Object-oriented terminal Snake with gates, items and missions | C++ · curses |
 
 ---
 
