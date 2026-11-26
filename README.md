@@ -13,13 +13,13 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Open%20to-Remote%20roles-2ea44f?style=flat-square" alt="Open to remote roles"/>
-  <img src="https://img.shields.io/badge/Based%20in-Seoul%2C%20KR-blue?style=flat-square" alt="Seoul"/>
-  <img src="https://komarev.com/ghpvc/?username=Islamintech&style=flat-square&color=blueviolet" alt="Profile views"/>
+  <a href="#"><img src="https://img.shields.io/badge/Open%20to-Remote%20roles-2ea44f?style=flat-square" alt="Open to remote roles"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Based%20in-Seoul%2C%20KR-blue?style=flat-square" alt="Seoul"/></a>
+  <a href="#"><img src="https://komarev.com/ghpvc/?username=Islamintech&style=flat-square&color=blueviolet" alt="Profile views"/></a>
 </p>
 
 <p align="center">
-  <img src="./profile/star-chart.svg" width="100%" alt="Islombek's projects drawn as a star chart"/>
+  <a href="#"><img src="./profile/star-chart.svg" width="100%" alt="Islombek's projects drawn as a star chart"/></a>
 </p>
 
 ---
@@ -37,13 +37,13 @@
 **Languages & frameworks**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=ts,js,py,cpp,nextjs,react,redux,nestjs,nodejs,express,fastapi,graphql,apollo,materialui,tailwind&perline=15" alt="Languages and frameworks"/>
+  <a href="#"><img src="https://skillicons.dev/icons?i=ts,js,py,cpp,nextjs,react,redux,nestjs,nodejs,express,fastapi,graphql,apollo,materialui,tailwind&perline=15" alt="Languages and frameworks"/></a>
 </p>
 
 **Data, infra & AI**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=mongodb,postgres,redis,sqlite,docker,vercel,git,github,linux,pytorch,opencv,sklearn&perline=15" alt="Data, infra and AI"/>
+  <a href="#"><img src="https://skillicons.dev/icons?i=mongodb,postgres,redis,sqlite,docker,vercel,git,github,linux,pytorch,opencv,sklearn&perline=15" alt="Data, infra and AI"/></a>
 </p>
 
 Also: Railway · Cloudinary · BullMQ · Playwright · LLM integration (Groq, Claude, OpenAI)
