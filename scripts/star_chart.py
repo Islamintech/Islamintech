@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Generate profile/star-chart.svg: a GitHub profile drawn as a star chart.
 
-Projects are stars joined into a constellation (most recent push first),
+Projects (pinned repos first, then recent pushes) are stars joined into a
+constellation, newest push first,
 colored by main language, sized by repo size, and glowing brighter the more
 recently they were pushed. A side panel shows the language mix and activity.
 
@@ -64,10 +65,13 @@ def fetch(user, token):
 
     year = datetime.now(timezone.utc).year
     commits = None
+    pinned = []
     try:
-        q = {"query": "query($u:String!,$f:DateTime!){user(login:$u){contributionsCollection(from:$f){totalCommitContributions contributionCalendar{totalContributions}}}}",
+        q = {"query": "query($u:String!,$f:DateTime!){user(login:$u){pinnedItems(first:6,types:REPOSITORY){nodes{... on Repository{name}}} contributionsCollection(from:$f){totalCommitContributions contributionCalendar{totalContributions}}}}",
              "variables": {"u": user, "f": f"{year}-01-01T00:00:00Z"}}
-        cc = _req(f"{API}/graphql", token, q)["data"]["user"]["contributionsCollection"]
+        gu = _req(f"{API}/graphql", token, q)["data"]["user"]
+        pinned = [n["name"] for n in gu["pinnedItems"]["nodes"] if n]
+        cc = gu["contributionsCollection"]
         commits = cc["totalCommitContributions"]
         contributions = cc["contributionCalendar"]["totalContributions"]
     except Exception as e:  # stats are a nice-to-have; never fail the card
@@ -81,6 +85,7 @@ def fetch(user, token):
         "repos": [{"name": r["name"], "language": r.get("language"), "size": r.get("size", 0),
                    "pushed_at": r["pushed_at"], "stars": r.get("stargazers_count", 0)} for r in repos],
         "lang_bytes": lang_bytes,
+        "pinned": pinned,
         "commits": commits,
         "contributions": contributions,
         "year": year,
@@ -104,6 +109,7 @@ def sample():
             {"name": "Snake-Game-C-", "language": "C++", "size": 400, "pushed_at": ago(150), "stars": 0},
             {"name": "zoo", "language": "TypeScript", "size": 300, "pushed_at": ago(200), "stars": 0},
         ],
+        "pinned": ["vivora", "qalqon", "visa-checker", "auction-react", "cake-hh", "computer_vision"],
         "lang_bytes": {"TypeScript": 590, "Python": 265, "CSS": 82, "JavaScript": 42, "C++": 16, "Jupyter Notebook": 900},
         "commits": 324, "contributions": 1373, "year": now.year,
     }
@@ -140,7 +146,12 @@ ANCHORS = [(150, 160), (268, 125), (378, 178), (478, 132),
 # ── render ───────────────────────────────────────────────────────────────────
 def render(d):
     rnd = random.Random(d["login"])
-    repos = sorted(d["repos"], key=lambda r: r["pushed_at"], reverse=True)[:MAX_STARS]
+    # pinned repos always shine; remaining slots go to the most recent pushes
+    by_recent = sorted(d["repos"], key=lambda r: r["pushed_at"], reverse=True)
+    pinned = set(d.get("pinned") or [])
+    chosen = [r for r in by_recent if r["name"] in pinned]
+    chosen += [r for r in by_recent if r["name"] not in pinned][:max(0, MAX_STARS - len(chosen))]
+    repos = sorted(chosen, key=lambda r: r["pushed_at"], reverse=True)
     o = []
     add = o.append
 
