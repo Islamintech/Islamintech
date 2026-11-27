@@ -147,26 +147,26 @@
 <text x="28" y="66" class="sans" font-size="22" font-weight="700" fill="#f4f6ff">Islombek (Islam)</text>
 <g fill="none" stroke="#8fa3d9" stroke-opacity=".10"><circle cx="290" cy="225" r="90"/><circle cx="290" cy="225" r="160"/><circle cx="290" cy="225" r="230"/><line x1="290" y1="80" x2="290" y2="410"/><line x1="40" y1="225" x2="540" y2="225"/></g>
 <path d="M150,160 L268,125 L378,178 L478,132 L430,272 L300,298 L172,268 L78,330" fill="none" stroke="#c9d6ff" stroke-opacity=".45" stroke-width="1.2" class="line"/>
-<circle cx="150" cy="160" r="24.7" fill="#3178c6" opacity="0.45" filter="url(#glow)"/>
-<circle cx="150" cy="160" r="9.5" fill="#3178c6" stroke="#fff" stroke-opacity="0.82" stroke-width="1.2" class="pulse"/>
-<circle cx="150" cy="160" r="3.3" fill="#fff" opacity="0.82"/>
-<text x="150" y="130" text-anchor="middle" class="mono" font-size="11.5" font-weight="600" fill="#eef2ff" stroke="#070a1c" stroke-width="3" paint-order="stroke" opacity="0.93">auto-auction</text>
-<text x="150" y="142" text-anchor="middle" class="mono" font-size="9" fill="#3178c6" stroke="#070a1c" stroke-width="3" paint-order="stroke" opacity="0.92">TypeScript · yesterday</text>
+<circle cx="150" cy="160" r="24.7" fill="#3178c6" opacity="0.42" filter="url(#glow)"/>
+<circle cx="150" cy="160" r="9.5" fill="#3178c6" stroke="#fff" stroke-opacity="0.77" stroke-width="1.2" class="pulse"/>
+<circle cx="150" cy="160" r="3.3" fill="#fff" opacity="0.77"/>
+<text x="150" y="130" text-anchor="middle" class="mono" font-size="11.5" font-weight="600" fill="#eef2ff" stroke="#070a1c" stroke-width="3" paint-order="stroke" opacity="0.91">auto-auction</text>
+<text x="150" y="142" text-anchor="middle" class="mono" font-size="9" fill="#3178c6" stroke="#070a1c" stroke-width="3" paint-order="stroke" opacity="0.90">TypeScript · 2d ago</text>
 <circle cx="268" cy="125" r="13.3" fill="#DA5B0B" opacity="0.28" filter="url(#glow)"/>
-<circle cx="268" cy="125" r="5.1" fill="#DA5B0B" stroke="#fff" stroke-opacity="0.52" stroke-width="1.2"/>
-<circle cx="268" cy="125" r="1.8" fill="#fff" opacity="0.52"/>
-<text x="268" y="100" text-anchor="middle" class="mono" font-size="11.5" font-weight="600" fill="#eef2ff" stroke="#070a1c" stroke-width="3" paint-order="stroke" opacity="0.81">computer_vision</text>
-<text x="268" y="112" text-anchor="middle" class="mono" font-size="9" fill="#DA5B0B" stroke="#070a1c" stroke-width="3" paint-order="stroke" opacity="0.78">Jupyter Notebook · 17d ago</text>
+<circle cx="268" cy="125" r="5.1" fill="#DA5B0B" stroke="#fff" stroke-opacity="0.51" stroke-width="1.2"/>
+<circle cx="268" cy="125" r="1.8" fill="#fff" opacity="0.51"/>
+<text x="268" y="100" text-anchor="middle" class="mono" font-size="11.5" font-weight="600" fill="#eef2ff" stroke="#070a1c" stroke-width="3" paint-order="stroke" opacity="0.80">computer_vision</text>
+<text x="268" y="112" text-anchor="middle" class="mono" font-size="9" fill="#DA5B0B" stroke="#070a1c" stroke-width="3" paint-order="stroke" opacity="0.78">Jupyter Notebook · 18d ago</text>
 <circle cx="378" cy="178" r="12.0" fill="#DA5B0B" opacity="0.28" filter="url(#glow)"/>
-<circle cx="378" cy="178" r="4.6" fill="#DA5B0B" stroke="#fff" stroke-opacity="0.52" stroke-width="1.2"/>
-<circle cx="378" cy="178" r="1.6" fill="#fff" opacity="0.52"/>
-<text x="378" y="153" text-anchor="middle" class="mono" font-size="11.5" font-weight="600" fill="#eef2ff" stroke="#070a1c" stroke-width="3" paint-order="stroke" opacity="0.81">ai_foundation</text>
-<text x="378" y="165" text-anchor="middle" class="mono" font-size="9" fill="#DA5B0B" stroke="#070a1c" stroke-width="3" paint-order="stroke" opacity="0.78">Jupyter Notebook · 17d ago</text>
+<circle cx="378" cy="178" r="4.6" fill="#DA5B0B" stroke="#fff" stroke-opacity="0.51" stroke-width="1.2"/>
+<circle cx="378" cy="178" r="1.6" fill="#fff" opacity="0.51"/>
+<text x="378" y="153" text-anchor="middle" class="mono" font-size="11.5" font-weight="600" fill="#eef2ff" stroke="#070a1c" stroke-width="3" paint-order="stroke" opacity="0.80">ai_foundation</text>
+<text x="378" y="165" text-anchor="middle" class="mono" font-size="9" fill="#DA5B0B" stroke="#070a1c" stroke-width="3" paint-order="stroke" opacity="0.78">Jupyter Notebook · 18d ago</text>
 <circle cx="478" cy="132" r="13.2" fill="#3572A5" opacity="0.24" filter="url(#glow)"/>
-<circle cx="478" cy="132" r="5.1" fill="#3572A5" stroke="#fff" stroke-opacity="0.44" stroke-width="1.2"/>
-<circle cx="478" cy="132" r="1.8" fill="#fff" opacity="0.44"/>
+<circle cx="478" cy="132" r="5.1" fill="#3572A5" stroke="#fff" stroke-opacity="0.43" stroke-width="1.2"/>
+<circle cx="478" cy="132" r="1.8" fill="#fff" opacity="0.43"/>
 <text x="478" y="107" text-anchor="middle" class="mono" font-size="11.5" font-weight="600" fill="#eef2ff" stroke="#070a1c" stroke-width="3" paint-order="stroke" opacity="0.77">qalqon</text>
-<text x="478" y="119" text-anchor="middle" class="mono" font-size="9" fill="#3572A5" stroke="#070a1c" stroke-width="3" paint-order="stroke" opacity="0.75">Python · 28d ago</text>
+<text x="478" y="119" text-anchor="middle" class="mono" font-size="9" fill="#3572A5" stroke="#070a1c" stroke-width="3" paint-order="stroke" opacity="0.74">Python · 29d ago</text>
 <circle cx="430" cy="272" r="16.0" fill="#3178c6" opacity="0.19" filter="url(#glow)"/>
 <circle cx="430" cy="272" r="6.2" fill="#3178c6" stroke="#fff" stroke-opacity="0.35" stroke-width="1.2"/>
 <circle cx="430" cy="272" r="2.2" fill="#fff" opacity="0.35"/>
@@ -221,8 +221,8 @@
 <text x="580" y="314" class="sans" font-size="12" fill="#aab6dd">Commits this year</text>
 <text x="796" y="314" text-anchor="end" class="sans" font-size="12" font-weight="600" fill="#f4f6ff">425</text>
 <text x="580" y="336" class="sans" font-size="12" fill="#aab6dd">Contributions</text>
-<text x="796" y="336" text-anchor="end" class="sans" font-size="12" font-weight="600" fill="#f4f6ff">1,385</text>
+<text x="796" y="336" text-anchor="end" class="sans" font-size="12" font-weight="600" fill="#f4f6ff">1,386</text>
 <text x="580" y="358" class="sans" font-size="12" fill="#aab6dd">Last launch</text>
-<text x="796" y="358" text-anchor="end" class="sans" font-size="12" font-weight="600" fill="#f4f6ff">auto-auction · yesterday</text>
+<text x="796" y="358" text-anchor="end" class="sans" font-size="12" font-weight="600" fill="#f4f6ff">auto-auction · 2d ago</text>
 <text x="28" y="412" class="mono" font-size="9.5" fill="#6f7fae">stars = projects · color = language · brightness = recent pushes · updated daily</text>
 </g></svg>
